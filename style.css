@@ -98,7 +98,8 @@ nav ul li{
 .what-are-you-working-on{
     background-color: rgb(79 79 79);
     height: 120px;
-    padding: 43px;
+    display: flex;
+    justify-content: center;
 }
 .what-are-you-working-on p{
     float: left;
