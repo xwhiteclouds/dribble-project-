@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-gap: 40px;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100%;
+    padding: 40px;
+}
+
+
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container div .icon{
+    display: flex;
+    height: 30px;
+    color: #bdbdbd;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+i.far.fa-eye {
+    margin-right: 5px;
+}
+
+i.fas.fa-comment, i.fas.fa-heart {
+    margin: 0px 5px 0px 10px;
+}
