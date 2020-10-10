@@ -44,6 +44,7 @@ i.fas.fa-comment, i.fas.fa-heart {
 }
 main{
     width: 1280px;
+    margin: auto;
 }
 nav{
     background-color: rgb(42 42 42);
